@@ -2,11 +2,12 @@
 /dist
 /tmp
 /out-tsc
-# Only exists if Bazel was run
 /bazel-out
 
-# Dependencies
+# Node
 /node_modules
+npm-debug.log
+yarn-error.log
 
 # Cordova
 /www
@@ -37,6 +38,7 @@ xcuserdata/
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+.history/*
 
 # Maven
 /target
@@ -53,6 +55,8 @@ testem.log
 /typings
 /reports
 /src/translations/template.*
+/.angular/cache
+__screenshots__/
 # /src/environments/.env.*
 
 # System Files
