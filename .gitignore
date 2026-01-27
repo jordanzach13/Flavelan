@@ -5,7 +5,7 @@
 /bazel-out
 
 # Node
-/node_modules
+node_modules
 npm-debug.log
 yarn-error.log
 
@@ -55,7 +55,7 @@ testem.log
 /typings
 /reports
 /src/translations/template.*
-/.angular/cache
+.angular/cache
 __screenshots__/
 # /src/environments/.env.*
 
