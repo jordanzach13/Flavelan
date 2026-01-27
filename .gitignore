@@ -55,7 +55,7 @@ testem.log
 /typings
 /reports
 /src/translations/template.*
-.angular/cache
+.angular/cache/*
 __screenshots__/
 # /src/environments/.env.*
 
